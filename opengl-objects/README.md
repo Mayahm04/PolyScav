@@ -1,4 +1,4 @@
-# OpenGL – Cube, Sphère, Prisme hexagonal (pipeline moderne)
+# OpenGL – Cube, Sphère, Prisme hexagonal 
 
 Ce projet affiche **trois objets 3D** en OpenGL core 3.3 :
 
