@@ -1,0 +1,125 @@
+/* ----------  PALETTE  ---------- */
+:root {
+  --bg: #f5f7fa;
+  --card-bg: #ffffff;
+  --green: #2ecc71;
+  --green-dark: #27ae60;
+  --blue: #3498db;
+  --blue-dark: #2980b9;
+  --text: #2d3436;
+  --muted: #636e72;
+  --border: #dfe6e9;
+  --radius: 14px;
+  --shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--text);
+}
+
+/* ---------- GLOBAL TITLES ---------- */
+h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* ---------- CARD ---------- */
+.card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.6rem;
+  transition: 0.2s;
+}
+
+.btn-blue {
+  background: var(--blue);
+  color: white;
+}
+.btn-blue:hover {
+  background: var(--blue-dark);
+}
+
+.btn-green {
+  background: var(--green);
+  color: white;
+}
+.btn-green:hover {
+  background: var(--green-dark);
+}
+
+/* ---------- BADGES ---------- */
+.badge {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.85rem;
+  border-radius: 30px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.badge-plastique { background: #d6eaff; color: #2980b9; }
+.badge-métal { background: #ececec; color: #636e72; }
+.badge-papier { background: #fff3b0; color: #b89b00; }
+.badge-verre { background: #d4f7d4; color: #27ae60; }
+.badge-organique { background: #ffe6c7; color: #d35400; }
+.badge-autre { background: #eadcff; color: #8e44ad; }
+
+/* ---------- TIMELINE ---------- */
+.timeline {
+  border-left: 3px solid var(--border);
+  padding-left: 1.5rem;
+  margin-left: 1rem;
+}
+
+.timeline-item {
+  margin-bottom: 1.8rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: var(--green);
+  border-radius: 50%;
+  position: absolute;
+  left: -24px;
+  top: 5px;
+  box-shadow: 0 0 0 4px white;
+}
+
+/* ---------- RESULT BOX ---------- */
+.result-box {
+  background: #e3fbe7;
+  border: 2px solid var(--green);
+  padding: 1rem 1.4rem;
+  border-radius: var(--radius);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--green-dark);
+  box-shadow: var(--shadow);
+}
