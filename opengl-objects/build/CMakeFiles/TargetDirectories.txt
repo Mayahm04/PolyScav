@@ -1,0 +1,3 @@
+/mnt/c/Users/mayah/OneDrive/Desktop/DefisCEG/opengl-objects/build/CMakeFiles/opengl_objects.dir
+/mnt/c/Users/mayah/OneDrive/Desktop/DefisCEG/opengl-objects/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/mayah/OneDrive/Desktop/DefisCEG/opengl-objects/build/CMakeFiles/rebuild_cache.dir
